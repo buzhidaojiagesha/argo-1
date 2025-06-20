@@ -8,8 +8,8 @@ const UUID = process.env.UUID || '827d1e6d-9092-44d3-9c4b-71a3bf5c494d'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'o.o:443';     //不动就行，在config.yaml改
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                     // 不动就行，在config.yaml改
 const NEZHA_KEY = process.env.NEZHA_KEY || 'o';   // 不动就行，在config.yaml改
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.roosh.pp.ua';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNzhmYTkwZTFhMjg5YWQyM2YzNDhiM2M3OGIwOThlY2IiLCJ0IjoiMGM1MjRhM2YtZTFjOS00ZTlmLTgxYjYtN2Y1Mjk0ODE0OTA1IiwicyI6Ik5XSXlNVGN4WVdNdFlXTmlNQzAwWVRnMUxXRXhOekl0TlRWaU1tUTRPREJoTURndyJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.lingchen.ggff.net';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiODYyMmRlNmEyYTk3OGJjMjNmMzAxOTZlZWVlNTk4MzgiLCJ0IjoiODAzNWI1YTgtNjQzMy00Nzg3LWFlMmMtYWM3ZmY0YWE1ZjA3IiwicyI6IlptWmhOREU0TkRVdFptRm1PQzAwWmpoaUxUaGtOVGN0TVdWbE5qY3dZV1l4TnpZMCJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.hk';
 const NAME = process.env.NAME || 'Choreo';
 
